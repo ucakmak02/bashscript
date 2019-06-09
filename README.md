@@ -8,7 +8,7 @@ First Method:rc.local
 
 ## Edit
 
-$ sudo vi /etc/rc.local
+> $ sudo vi /etc/rc.local
 
 ## Run .sh file
 
@@ -18,16 +18,16 @@ Second Method:Crontab
 
 ## Edit
 
-crontab -e
+> crontab -e
 
 @reboot ( sh /location/backup.sh )
 
 ## For Send Email
 
-sudo apt-get install mailutils
+> sudo apt-get install mailutils
 
-sudo apt-get install ssmtp
-nano /etc/ssmtp/ssmtp.conf
+> sudo apt-get install ssmtp
+> nano /etc/ssmtp/ssmtp.conf
 
 ## Add 
 
@@ -75,4 +75,4 @@ UseTLS=YES
 UseSTARTTLS=YES
 
 ## Send Mail in Command Line
-echo "This mail"| sendmail [receivers_email_address]
+> echo "This mail"| sendmail [receivers_email_address]
