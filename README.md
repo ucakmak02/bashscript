@@ -6,30 +6,30 @@ First Method:rc.local
 
 $ sudo chmod +x /etc/rc.local
 
-# Edit
+## Edit
 
 $ sudo vi /etc/rc.local
 
-# Run .sh file
+## Run .sh file
 
 sh /location/script.sh 
 
 Second Method:Crontab 
 
-# Edit
+## Edit
 
 crontab -e
 
 @reboot ( sh /location/backup.sh )
 
-# For Send Email
+## For Send Email
 
 sudo apt-get install mailutils
 
 sudo apt-get install ssmtp
 nano /etc/ssmtp/ssmtp.conf
 
-# Add 
+## Add 
 
 #
 #Config file for sSMTP sendmail
@@ -74,5 +74,5 @@ AuthPass=my_password
 UseTLS=YES
 UseSTARTTLS=YES
 
-# Send Mail in Command Line
+## Send Mail in Command Line
 echo "This mail"| sendmail [receivers_email_address]
