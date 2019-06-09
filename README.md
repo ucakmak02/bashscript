@@ -3,7 +3,7 @@ Executing Commands and Scripts at Reboot and Startup in Linux
 First Method:rc.local
 
 #Give permissions
-$ sudo chmod +x /etc/rc.loca
+$ sudo chmod +x /etc/rc.local
 
 #Edit
 $ sudo vi /etc/rc.local
