@@ -74,5 +74,5 @@ AuthPass=Ugur1845
 UseTLS=YES
 UseSTARTTLS=YES
 
-
+# Send Mail in Command Line
 echo "This mail"| sendmail [receivers_email_address]
