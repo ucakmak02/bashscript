@@ -1,4 +1,4 @@
-Executing Commands and Scripts at Reboot and Startup in Linux
+# Executing Commands Reboot and Startup in Linux
 
 ## First Method:rc.local
 
