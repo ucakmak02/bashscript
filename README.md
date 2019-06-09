@@ -1,12 +1,12 @@
 Executing Commands and Scripts at Reboot and Startup in Linux
 
-# First Method:rc.local
+## First Method:rc.local
 
 ### Give permissions
 
 > $ sudo chmod +x /etc/rc.local
 
-## Edit
+### Edit
 
 > $ sudo vi /etc/rc.local
 
@@ -14,7 +14,7 @@ Executing Commands and Scripts at Reboot and Startup in Linux
 
 sh /location/script.sh 
 
-# Second Method:Crontab 
+## Second Method:Crontab 
 
 ### Edit
 
