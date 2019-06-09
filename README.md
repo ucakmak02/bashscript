@@ -42,7 +42,7 @@ nano /etc/ssmtp/ssmtp.conf
 
 #root=postmaster
 
-root=u.s.cakmak02@gmail.com@gmail.com
+root=my_email_adress@gmail.com@gmail.com
 
 
 #The place where the mail goes. The actual machine name is required no 
@@ -69,8 +69,8 @@ hostname=localhost
 #NO - Use the system generated From: address
 
 FromLineOverride=YES
-AuthUser=u.s.cakmak02@gmail.com
-AuthPass=Ugur1845
+AuthUser=my_email_adress@gmail.com
+AuthPass=my_password
 UseTLS=YES
 UseSTARTTLS=YES
 
