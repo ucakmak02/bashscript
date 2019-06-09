@@ -31,7 +31,7 @@ Second Method:Crontab
 
 ## Add 
 
-#
+``` #
 #Config file for sSMTP sendmail
 
 #
@@ -73,6 +73,6 @@ AuthUser=my_email_adress@gmail.com
 AuthPass=my_password
 UseTLS=YES
 UseSTARTTLS=YES
-
+```
 ## Send Mail in Command Line
 > echo "This mail"| sendmail [receivers_email_address]
