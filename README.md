@@ -4,7 +4,7 @@ First Method:rc.local
 
 ## Give permissions
 
-$ sudo chmod +x /etc/rc.local
+> $ sudo chmod +x /etc/rc.local
 
 ## Edit
 
