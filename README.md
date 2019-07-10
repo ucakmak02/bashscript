@@ -46,7 +46,7 @@ sh /location/script.sh
 
 > sudo update-rc.d backup.sh defaults
 
-### For Send Email
+## For Send Email
 
 > sudo apt-get install mailutils
 
