@@ -22,6 +22,30 @@ sh /location/script.sh
 
 @reboot ( sh /location/backup.sh )
 
+## Third Method (Easist)
+
+### If not exists; create backup.sh file
+
+> nano backup.sh
+
+### Write as a first line the heading
+
+#! /bin/bash
+
+### Give permissions
+
+> chmod a+x backup.sh    //Make it executable
+
+> chmod 777 backup.sh    //Give it root rights (saves you to write sudo every time)
+
+### Copy your script to the /etc/init.d/ folder with
+
+> sudo cp ~/backup.sh /etc/init.d/
+
+### Invoke update-rc.d with
+
+> sudo update-rc.d backup.sh defaults
+
 ### For Send Email
 
 > sudo apt-get install mailutils
